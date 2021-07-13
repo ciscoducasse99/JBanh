@@ -196,4 +196,8 @@
       mirror: false,
     });
   });
+
+  var mail = document.getElementById("contact-btn");
+  mail.href = "mailto:ciscoducasse99@hotmail.com";
+  mail.click();
 })();
